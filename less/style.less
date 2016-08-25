@@ -33,9 +33,6 @@ body {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
   .navbar{
     background-color: transparent;
     background: transparent;
@@ -57,9 +54,10 @@ body {
   }
   .titre {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 80vh;
     h1{
       color: @blanc;
       font-size: 5em;
@@ -260,5 +258,11 @@ footer {
   }
   .noNe {
     display: none;
+  }
+  h1{
+    font-size: 20px;
+  }
+  h1, h2, h3 {
+    text-align: center;
   }
 }
